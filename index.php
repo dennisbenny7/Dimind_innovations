@@ -19,7 +19,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users"); // using mysqli_query in
 
 	<tr bgcolor='blue'>
 		<td style="color:white;">Name</td>
-		<td style="color:white;">Age</td>
+		<td style="color:white;">Id</td>
 		<td style="color:white;">Email</td>
 		<td style="color:white;">Update</td>
 	</tr>
@@ -34,6 +34,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users"); // using mysqli_query in
 	}
 	?>
 	</table>
-	&copy Dennisbenny
+
+	&copy Dennis benny
 </body>
 </html>
