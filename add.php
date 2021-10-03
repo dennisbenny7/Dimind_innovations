@@ -42,6 +42,7 @@ if(isset($_POST['Submit'])) {
 	}
 }
 ?>
+<br>
 &copy Dennis benny
 </body>
 </html>
