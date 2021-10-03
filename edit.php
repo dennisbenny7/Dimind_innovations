@@ -66,7 +66,7 @@ while($res = mysqli_fetch_array($result))
 			</tr>
 			<tr> 
 				<td>Id</td>
-				<td><input type="text" name="age" value="<?php echo $age;?>" disabled></td>
+				<td><input type="text" name="age" value="<?php echo $age;?>"></td>
 			</tr>
 			<tr> 
 				<td>Email</td>
