@@ -24,7 +24,6 @@ $result = mysqli_query($mysqli, "SELECT * FROM users"); // using mysqli_query in
 		<td style="color:white;">Update</td>
 	</tr>
 	<?php 
-	//while($res = mysql_fetch_array($result)) { // mysql_fetch_array is deprecated, we need to use mysqli_fetch_array 
 	while($res = mysqli_fetch_array($result)) { 		
 		echo "<tr>";
 		echo "<td>".$res['name']."</td>";
