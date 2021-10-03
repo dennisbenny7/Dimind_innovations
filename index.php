@@ -34,5 +34,6 @@ $result = mysqli_query($mysqli, "SELECT * FROM users"); // using mysqli_query in
 	}
 	?>
 	</table>
+	&copy Dennisbenny
 </body>
 </html>
