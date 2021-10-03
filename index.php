@@ -7,10 +7,11 @@ $result = mysqli_query($mysqli, "SELECT * FROM users");
 
 <html>
 <head>	
-	<title>Homepage</title>
+	<title>USING XAMPP</title>
 </head>
 
 <body>
+<h1 style="text-align:center">PHP crud operations using Xampp and Apache server and Mysql</h1>
 <a href="add.html">Add New Data</a><br/><br/>
 
 	<table width='80%' border=3>
