@@ -18,7 +18,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users");
 
 	<tr bgcolor='blue'>
 		<td style="color:white;">Name</td>
-		<td style="color:white;">Id</td>
+		<td style="color:white;">Age</td>
 		<td style="color:white;">Email</td>
 		<td style="color:white;">Update</td>
 	</tr>
