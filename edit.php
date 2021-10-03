@@ -78,5 +78,6 @@ while($res = mysqli_fetch_array($result))
 			</tr>
 		</table>
 	</form>
+	&copy Dennis benny
 </body>
 </html>
